@@ -1,5 +1,33 @@
 $mainColor: #ff4077;
 
 .App{
-    
+    & > div.main{
+        margin-left: 217px;
+        margin-top: 156px;
+        & > span{
+            font-size: 48px;
+            font-weight: 300;
+            & > img{
+                width: 189.1px;
+                height: 40.9px;
+            }
+        }
+
+        & > p{
+            margin-top: 16px;
+            margin-bottom: 0px;
+            font-size: 16px;
+        }
+
+        & > button{
+            margin-top: 64px;
+            width: 224px;
+            height: 64px;
+            border: 3px solid $mainColor;
+            border-radius: 32px;
+            font-size: 24px;
+            font-weight: bold;
+            color: $mainColor;
+        }
+    }
 }
