@@ -2,7 +2,7 @@ $headerColor: #979797;
 $headerHover: #1e1e1e;
 
 .Header{
-    padding: 20px 0px;
+    padding: 20px 13%;
     background-color: #fff;
     position: relative;
     margin: 0;
@@ -47,13 +47,11 @@ $headerHover: #1e1e1e;
             & > img{
                 width: 69.2px;
                 height: 15px;
-                margin-left: 217px;
             }
           }
         }
   
         &:nth-child(2){
-            margin-right: 217px;
           align-self: center;
           padding: 0;
           flex-grow: 0;
