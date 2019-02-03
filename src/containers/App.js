@@ -10,7 +10,7 @@ import Content2nd from '../components/2ndContent/2ndContent'
 import Content3rd from '../components/3rdContent/3rdContent'
 import Content4th from '../components/4thContent/4thContent'
 import Content5th from '../components/5thContent/5thContent'
-
+import Footer from '../components/Footer/Footer'
 const cx = classNames.bind(styles)
 
 
@@ -29,10 +29,7 @@ class App extends Component {
         <Content4th/>
         <Content5th/>
 
-
-        <footer>
-          asdf
-        </footer>
+        <Footer/>
       </div>
     );
   }

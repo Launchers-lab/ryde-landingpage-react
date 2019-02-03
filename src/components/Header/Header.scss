@@ -2,6 +2,7 @@ $headerColor: #979797;
 $headerHover: #1e1e1e;
 
 .Header{
+    position: fixed !important;
     padding: 20px 13%;
     background-color: #fff;
     position: relative;
@@ -9,17 +10,16 @@ $headerHover: #1e1e1e;
     display: block;
     color: $headerColor;
     align-items: center;
+    width: calc(100% - 26%);
   
     & > ul{
-      -webkit-box-pack: justify;
       justify-content: space-between;
       margin: 0px;
       padding: 0px;
       list-style-type: none;
       display: flex;
       box-sizing: border-box;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
+      justify-content: space-between;
       flex-direction: row;
       flex-wrap: nowrap;
       list-style-position: outside;

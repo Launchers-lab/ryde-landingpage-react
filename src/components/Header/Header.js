@@ -19,17 +19,17 @@ export default class Header extends Component {
             <div />
           </li>
           <li>
-            {/* <div>
-                <div>
-                    <Link to="#">Start</Link>
-                </div>
-                <div>
-                    <Link to="#">About</Link>
-                </div>
-                <div>
-                    <Link to="#">Contact</Link>
-                </div>
-            </div> */}
+           {/* <div>
+              <div>
+                  <Link to="#">Start</Link>
+              </div>
+              <div>
+                  <Link to="#">About</Link>
+              </div>
+              <div>
+                  <Link to="#">Contact</Link>
+              </div>
+            </div>  */}
           </li>
         </ul>
       </nav>
