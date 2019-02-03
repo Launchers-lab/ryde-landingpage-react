@@ -1,0 +1,43 @@
+@import '../../styles/_colors.scss';
+
+.content-1st{
+    margin-left: 13%;
+    margin-top: 243px;
+
+    & > span{
+        display: inline-block;
+    
+        height: 71px;
+        font-size: 48px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $fontColor;
+        & > img{
+            margin-left: 3px;
+            width: 189.1px;
+            height: 40.9px;
+        }
+    }
+
+    & > p{
+        margin-top: 32px;
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+
+    & > div{
+        margin-top: 64px;
+        display: flex;
+        justify-content: space-between;
+        width: 450px;
+        & > a{
+            & > img{
+                width: 213px;
+                height: 64px;
+            }
+        }
+    }
+}

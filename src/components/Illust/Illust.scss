@@ -1,0 +1,57 @@
+.Illust{
+    & > img, div{
+        z-index: -1;
+    }
+    & > .Piece_1 {
+        top: 302px;
+        position: absolute;
+        width: 92px;
+        height: 146px;
+    }
+
+    & > .Piece_2{
+        left: 148px;
+        top: 1840px;
+        position: absolute;
+    }
+
+    & > .Piece_3{
+        right: 218px;
+        top: 2045px;
+        position: absolute;
+    }
+
+    & > .Landing_illust_1{
+        top: 64px;
+        position: absolute;
+        right: 0;
+        width: 696px;
+        height: 742px;
+    }
+
+    & > .Landing_illust_2 {
+        position: absolute;
+        left: 62px;
+        top: 972px;
+        width: 639px;
+        height: 475px;
+        background-image: url("../..//assets/landing-illust-2.png");
+
+        & > span{
+            position: absolute;
+            font-size: 32px;
+            font-weight: 900;
+            color: #ffffff;
+            top: 55px;
+            right: 89px;
+        }
+    }
+
+    & > .Landing_illust_3{
+        top: 2554px;
+        position: absolute;
+        left: 153px;
+        width: 603px;
+        height: 487px;
+    }
+}

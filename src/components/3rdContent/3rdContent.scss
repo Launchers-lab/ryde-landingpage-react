@@ -1,0 +1,119 @@
+@import '../../styles/_colors.scss';
+
+.content-3rd{
+    margin-left: 217px;
+    margin-top: 359px;
+
+    & > span{
+        font-size: 36px;
+        font-weight: bold;
+        color: $fontColor;
+    }
+
+    & > p{
+        margin-top: 32px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        color: $fontColor;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    & > .cards-parent{
+        margin-top: 92px;
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        & > .cards{
+            margin-right: 28px;
+            min-width: 294px;
+            height: 428px;
+            border-radius: 12px;
+            box-shadow: 0 24px 42px 0 rgba(0, 0, 0, 0.15);
+            background-color: #ffffff;
+
+            &:first-child{
+                text-align: center;
+                display: inline-block;
+            }
+
+            &:not(:first-child){
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+                opacity: 0.4;
+                display: inline-block;
+
+                & > span:nth-child(1){
+                    display: block;
+                    height: 36px;
+                    margin-top: 244px;
+                    margin-left: 24px;
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #fff;
+                }
+
+                & > span:nth-child(2){
+                    height: 24px;
+                    margin-left: 24px;
+                    margin-top: 4px;
+                    font-size: 16px;
+                    font-weight: normal;
+                    color: #fff;
+                }
+
+                & > p{
+                    margin-left: 24px;
+                    width: 246px;
+                    height: 72px;
+                    font-family: NotoSansCJKkr;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #ffffff;
+                  }
+
+                
+            }
+
+            & > span.apply{
+                margin-top: 148px;
+                text-align: center;
+                display: inline-block;
+                font-size: 18px;
+                font-weight: bold;
+                height: 27px;
+                & > img.logo{
+                    width: 69.2px;
+                    height: 15px;
+                }
+
+                & > p{
+                    font-size: 14px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: $fontColor;
+                }
+
+                & > button{
+                    margin-top: 32px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    padding: 8px 36px;
+                    color: $mainColor;
+                    border: 3px solid $mainColor;
+                    border-radius: 18px;
+                }
+            }
+        }
+    }
+}

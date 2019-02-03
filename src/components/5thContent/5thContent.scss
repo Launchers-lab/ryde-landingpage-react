@@ -1,0 +1,35 @@
+@import '../../styles/_colors.scss';
+
+.content-4th{
+    margin-top: 325px;
+    margin-left: 893px;
+
+    & > span{
+        font-size: 36px;
+        font-weight: bold;
+        color: $fontColor;
+    }
+
+    & > p{
+        margin-top: 32px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        color: $fontColor;
+    }
+
+    & > ul{
+        width: 330px;
+        margin-top: 73px;
+        list-style: none;
+        padding-left: 0px !important;
+
+        & > li{
+            padding: 12px 0px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255, 64, 119, 0.2);
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}

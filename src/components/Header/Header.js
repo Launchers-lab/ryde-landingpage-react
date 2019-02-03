@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 import * as classNames from 'classnames/bind'
 import styles from './Header.scss'
@@ -19,7 +19,7 @@ export default class Header extends Component {
             <div />
           </li>
           <li>
-            <div>
+            {/* <div>
                 <div>
                     <Link to="#">Start</Link>
                 </div>
@@ -29,7 +29,7 @@ export default class Header extends Component {
                 <div>
                     <Link to="#">Contact</Link>
                 </div>
-            </div>
+            </div> */}
           </li>
         </ul>
       </nav>
