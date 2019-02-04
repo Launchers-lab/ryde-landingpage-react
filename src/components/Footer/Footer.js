@@ -19,7 +19,7 @@ const cx = classNames.bind(styles)
 export default class Footer extends Component {
   render () {
     return (
-        <footer className={cx('Footer')}>
+        <div className={cx('Footer')}>
           <div className='icons'>
             <img src={luancherslogo} alt="launchers" className='logo-header-launchers'/>
             <img src={luanchers} alt="launchers" className='ic_launchers'/> <br/>
@@ -63,7 +63,7 @@ export default class Footer extends Component {
               <a href='https://www.medium.com/' className='Footer-menu-icon'><img src={IconMedium} className='Footer-menu-icon' alt='go to launchers medium' /></a>
             </div>
           </div>
-        </footer>
+        </div>
     )
   }
 }
