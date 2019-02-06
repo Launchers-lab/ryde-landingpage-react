@@ -4,7 +4,8 @@ $headerHover: #1e1e1e;
 .Header{
     position: fixed !important;
     padding: 20px 13%;
-    background-color: rgba($color: #fff, $alpha: 0.5);
+    background-color: #fff;
+    box-shadow: 0px 10px 50px -25px #010101;
     position: relative;
     margin: 0;
     display: block;

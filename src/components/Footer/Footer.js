@@ -4,9 +4,9 @@ import * as classNames from 'classnames/bind'
 import styles from './Footer.scss';
 import MaterialIcon from 'material-icons-react';
 
-import logofooter from '../../assets/ic-footer-ryde.png'
-import luancherslogo from '../../assets/logo-header-launchers.png';
-import luanchers from '../../assets/ic-launchers.png'
+import logofooter from '../../assets/ic-footer-ryde.svg'
+import luancherslogo from '../../assets/logo-header-launchers.svg';
+import luanchers from '../../assets/ic-launchers.svg'
 
 import IconYoutube from '../../assets/ic-footer-youtube.svg';
 import IconFacebook from '../../assets/ic-footer-facebook.svg';

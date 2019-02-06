@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import * as classNames from 'classnames/bind'
 import styles from './3rdContent.scss'
 
-import logo from '../../assets/logo.png'
+import logo from '../../assets/ic-logo-big.svg'
 
 const cx = classNames.bind(styles)
 

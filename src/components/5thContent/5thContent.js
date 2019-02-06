@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 import * as classNames from 'classnames/bind'
 import styles from './5thContent.scss'
 
-import logo from '../../assets/logo.png'
-import playstore from '../../assets/playstore.png'
-import appstore from '../../assets/appstore.png'
+import logo from '../../assets/ic-logo-big.svg'
+import playstore from '../../assets/playstore.svg'
+import appstore from '../../assets/appstore.svg'
 
 const cx = classNames.bind(styles)
 

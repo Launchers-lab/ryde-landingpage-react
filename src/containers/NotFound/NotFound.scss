@@ -1,0 +1,33 @@
+@import '../../styles/_colors.scss';
+
+.NotFound{
+    & > h1{
+        font-size: 48px;
+        font-weight: 300;
+        margin-top: 389px;
+        margin-left: 217px;
+        color: $fontColor;
+    }
+    & > p{
+        margin-left: 217px;
+        margin-top: 24px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        font-weight: normal;
+        color: $FontColor404
+    }
+
+    & > a{
+        & > button{
+            margin-left: 217px;
+            margin-top: 42px;
+            border: 3px solid $mainColor;
+            padding: 11px 30px;
+            border-radius: 21px;
+            font-size: 14px;
+            font-weight: bold;
+            color: $mainColor;
+            text-decoration: none;
+        }
+    }
+}

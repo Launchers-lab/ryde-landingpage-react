@@ -3,18 +3,27 @@ import moment from 'moment'
 import * as classNames from 'classnames/bind'
 import styles from './Illust.scss'
 
-import piece1 from '../../assets/piece-1.png'
-import piece2 from '../../assets/piece-2.png'
-import piece3 from '../../assets/piece-3.png'
-import LandingIllust1 from '../../assets/landing-illust-1.png'
-import LandingIllust2 from '../../assets/landing-illust-2.png'
-import LandingIllust3 from '../../assets/landing-illust-3.png'
+import piece1 from '../../assets/piece-1.svg'
+import piece2 from '../../assets/piece-2.svg'
+import piece3 from '../../assets/piece-3.svg'
+import LandingIllust1 from '../../assets/landing-illust-1.svg'
+import LandingIllust2 from '../../assets/landing-illust-2.svg'
+import LandingIllust3 from '../../assets/landing-illust-3.svg'
 
 const cx = classNames.bind(styles)
 
-const date = moment().format('HH:mm');
 
 export default class Illust extends Component {
+  state = {
+    date: moment().format('HH:mm')
+  }
+
+  componentDidMount() {
+    setInterval(
+      () => this.setState({ date: moment().format('HH:mm') }),
+      1000
+    );
+  }
   render () {
     return (
         <div className={cx('Illust')}>
@@ -24,7 +33,7 @@ export default class Illust extends Component {
             
             <img src={LandingIllust1} className="Landing_illust_1" alt="Landing_illust_1"/>
             <div src={LandingIllust2} className="Landing_illust_2" alt="Landing_illust_2">
-            <span>{date}</span>
+            <span>{this.state.date}</span>
             </div>
             <img src={LandingIllust3} className="Landing_illust_3" alt="Landing_illust_3"/>
         </div>
