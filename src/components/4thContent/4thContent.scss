@@ -1,36 +1,40 @@
 @import '../../styles/_colors.scss';
 
 .content-4th{
-    width: 361px;
     margin-top: 275px;
-    margin-left: 893px;
+    margin-left: 900px;
+    display: flex;
+    justify-content: center;
 
-    & > span{
-        font-size: 36px;
-        font-weight: bold;
-        color: $fontColor;
-    }
-
-    & > p{
-        margin-top: 32px;
-        margin-bottom: 0px;
-        font-size: 16px;
-        color: $fontColor;
-    }
-
-    & > ul{
-        width: 330px;
-        margin-top: 73px;
-        list-style: none;
-        padding-left: 0px !important;
-
-        & > li{
-            padding: 12px 0px;
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 1px solid rgba(255, 64, 119, 0.2);
-            font-size: 16px;
+    & > div{
+        width: 361px;
+        & > span{
+            font-size: 36px;
             font-weight: bold;
+            color: $fontColor;
+        }
+    
+        & > p{
+            margin-top: 32px;
+            margin-bottom: 0px;
+            font-size: 16px;
+            color: $fontColor;
+        }
+    
+        & > ul{
+            width: 330px;
+            margin-top: 73px;
+            list-style: none;
+            padding-left: 0px !important;
+    
+            & > li{
+                padding: 12px 0px;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid rgba(255, 64, 119, 0.2);
+                font-size: 16px;
+                font-weight: bold;
+            }
         }
     }
 }
