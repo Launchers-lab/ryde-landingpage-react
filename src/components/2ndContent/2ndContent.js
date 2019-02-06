@@ -38,14 +38,16 @@ export default class Content2nd extends Component {
             </div>
           </div>
 
-          <div className="letters">
-            <span>
-              탄 만큼만 내세요!
-            </span>
-            <p>
-              저렴하고 정직한가격으로, 다른 어떤 <br/>
-              교통수단보다 빠르고 개인화 되어있습니다.
-            </p>
+          <div className="letters-wrap">
+            <div className="letters">
+              <span>
+                탄 만큼만 내세요!
+              </span>
+              <p>
+                저렴하고 정직한가격으로, 다른 어떤 <br/>
+                교통수단보다 빠르고 개인화 되어있습니다.
+              </p>
+            </div>
           </div>
         </div>
     )

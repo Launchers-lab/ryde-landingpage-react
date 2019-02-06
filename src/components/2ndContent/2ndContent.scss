@@ -3,26 +3,34 @@
 .content-2nd{
     margin-left: 361px;
     margin-top: 520px;
-    width: 837px;
+    min-width: 837px;
+    display: flex;
+    flex-direction: row;
     
-    & > div.letters{
-        display: inline-block;
-        margin-left: 115px;
-        & > span{
-            font-size: 36px;
-            font-weight: bold;
-            color: $fontColor;
-        }
-        & > p{
-            margin-top: 32px;
-            margin-bottom: 0px;
-            font-size: 16px;
-            color: $fontColor;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: normal;
-            letter-spacing: normal;
+    & > div.letters-wrap{
+        width: calc(100% - 416px);
+        display: flex;
+        justify-content: center;
+
+        & > div.letters{
+            margin-top: 50px;
+            display: inline-block;
+            & > span{
+                font-size: 36px;
+                font-weight: bold;
+                color: $fontColor;
+            }
+            & > p{
+                margin-top: 32px;
+                margin-bottom: 0px;
+                font-size: 16px;
+                color: $fontColor;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+            }
         }
     }
 
