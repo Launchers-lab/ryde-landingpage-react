@@ -30,6 +30,11 @@
         flex-direction: row;
         overflow-x: scroll;
         padding-bottom: 50px;
+
+        & > div:nth-last-child(1){
+            min-width: 100px;
+            background-color: #fff;
+        }
         & > .cards{
             margin-right: 28px;
             min-width: 294px;
@@ -80,8 +85,6 @@
                     letter-spacing: normal;
                     color: #ffffff;
                   }
-
-                
             }
 
             & > span.apply{

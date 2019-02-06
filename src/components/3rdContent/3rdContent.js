@@ -53,6 +53,7 @@ export default class Content3rd extends Component {
                 He comes from the non-acting branch of the Coppola family: his father August (brother of Francis)
               </p>
             </div>
+            <div></div>
           </div>
         </div>
     )
