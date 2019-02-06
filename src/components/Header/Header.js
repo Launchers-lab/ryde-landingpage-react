@@ -6,11 +6,28 @@ import styles from './Header.scss'
 import logo from '../../assets/ic-logo-big.svg'
 
 const cx = classNames.bind(styles)
-
 export default class Header extends Component {
+  
+  state = {
+    scroll: false
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', () => this.setState({scroll: true}));
+}
+
+componentWillUnmount() {
+    window.removeEventListener('scroll', () => this.setState({scroll: false}));
+    console.log(this.state.scroll)
+}
+
   render () {
     return (
-      <nav className={cx('Header')}>
+      <nav className={
+        this.state.scroll === true
+          ? (cx('Header true'))
+          : (cx('Header false'))
+      }>
         <ul>
           <li>
             <a href='/'>
