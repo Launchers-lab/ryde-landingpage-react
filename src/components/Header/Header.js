@@ -23,7 +23,6 @@ export default class Header extends Component {
   render () {
     return (
       <nav id='Header'>
-      {() => this.myFunction()}
         <ul>
           <li>
             <a href='/'>
