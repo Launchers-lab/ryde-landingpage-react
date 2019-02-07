@@ -4,12 +4,8 @@
   box-shadow: 0px 10px 50px -25px #010101;
   transition: all 0.15s linear;
 }
-.false{
-  box-shadow: 0px 0px 0px 0px #010101;
-  transition: all 0.15s linear;
-}
 
-.Header{
+#Header, .Header{
     position: fixed !important;
     padding: 20px 13%;
     background-color: #fff;

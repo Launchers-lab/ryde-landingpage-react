@@ -57,7 +57,7 @@ export default class Footer extends Component {
 
             <div className='Footer-menu-item'>
               <a href='https://www.youtube.com/' className='Footer-menu-icon'><img src={IconYoutube} className='Footer-menu-icon' alt='go to launchers youtube' /></a>
-              <a href='https://www.facebook.com/launchers.shop/' className='Footer-menu-icon'><img src={IconFacebook} alt='go to launchers facebook' /></a>
+              <a href='https://www.facebook.com/rydeapp.io/' className='Footer-menu-icon'><img src={IconFacebook} alt='go to launchers facebook' /></a>
               <a href='https://github.com/orgs/Launchers-lab/teams' className='Footer-menu-icon'><img src={IconGithub} className='Footer-menu-icon' alt='go to launchers github' /></a>
               <a href='https://www.instagram.com/' className='Footer-menu-icon'><img src={IconInstagram} className='Footer-menu-icon' alt='go to launchers instagram' /></a>
               <a href='https://www.medium.com/' className='Footer-menu-icon'><img src={IconMedium} className='Footer-menu-icon' alt='go to launchers medium' /></a>
