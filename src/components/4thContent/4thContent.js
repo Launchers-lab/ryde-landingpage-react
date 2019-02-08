@@ -12,7 +12,7 @@ export default class Content4th extends Component {
         <div className={cx('content-4th')}>
           <div>
             <span>RYDE, 좀 더 알아볼까요?</span>
-            <p>새로운 새미 모빌리티의 시작, 라이드가 주도합니다.</p>
+            <p>새로운 새미 모빌리티의 시작,<br/> 라이드가 주도합니다.</p>
             <ul>
               <li>
                 <div>Lorem Ipsum dolor sit amet</div>
@@ -26,10 +26,10 @@ export default class Content4th extends Component {
                 <div>Lorem Ipsum dolor sit amet</div>
                 <MaterialIcon icon='check' color='#ff4077' size='18' />
               </li>
-              <li>
+              {/* <li>
                 <div>Lorem Ipsum dolor sit amet</div>
                 <MaterialIcon icon='check' color='#ff4077' size='18' />
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

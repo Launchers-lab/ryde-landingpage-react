@@ -1,6 +1,11 @@
 @import '../../styles/_colors.scss';
+@import '../../styles/breakpoints';
 
 .content-4th{
+    @media(max-width: $large) {
+        margin-top: 454px;
+        margin-left: 0px;
+    }
     margin-top: 275px;
     margin-left: 900px;
     display: flex;
@@ -9,25 +14,57 @@
     & > div{
         width: 361px;
         & > span{
+            @media(max-width: $large) {
+                font-size: 24px;
+                height: 36px;
+                justify-content: center;
+                display: flex;
+                text-align: center;
+            }
             font-size: 36px;
             font-weight: bold;
             color: $fontColor;
         }
     
         & > p{
+            @media(max-width: $large) {
+                font-size: 14px;
+                justify-content: center;
+                display: flex;
+                text-align: center;
+            }
+
+            @media (min-width: $large) {
+                & > br  {
+                    content: ' '
+                }  
+            }
+
             margin-top: 32px;
             margin-bottom: 0px;
             font-size: 16px;
             color: $fontColor;
         }
     
-        & > ul{
+        & > ul{ 
+            @media(max-width: $large) {
+                margin-top: 32px;
+                width: calc(100% - 104px);
+                margin-left: 52px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 12px 0px;
+            }
             width: 330px;
             margin-top: 73px;
             list-style: none;
             padding-left: 0px !important;
     
             & > li{
+                @media(max-width: $large) {
+                    font-size: 14px;
+                }
                 padding: 12px 0px;
                 display: flex;
                 justify-content: space-between;
