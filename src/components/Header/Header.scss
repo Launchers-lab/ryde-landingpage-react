@@ -1,4 +1,5 @@
 @import '../../styles/_colors.scss';
+@import '../../styles/breakpoints.scss';
 
 .true{
   box-shadow: 0px 10px 50px -25px #010101;
@@ -16,7 +17,11 @@
     color: $headerColor;
     align-items: center;
     width: calc(100% - 26%);
-  
+
+    @media(max-width: $large) {
+      padding: 24px;
+      width: calc(100% - 48px);
+    }
     & > ul{
       justify-content: space-between;
       margin: 0px;
@@ -50,8 +55,15 @@
             vertical-align: bottom;
   
             & > img{
+              @media(min-width: $large) {
                 width: 69.2px;
                 height: 15px;
+              }
+
+              @media(max-width: $large) {
+                width: 70px;
+                height: 15px;
+              }
             }
           }
         }
@@ -76,7 +88,7 @@
             flex-wrap: nowrap;
   
             & > div{
-                margin-left: 64px;
+              margin-left: 64px;
               align-self: center !important;
               padding: 0;
               flex-grow: 0;
