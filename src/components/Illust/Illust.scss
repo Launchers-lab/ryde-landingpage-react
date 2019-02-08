@@ -1,41 +1,87 @@
+@import '../../styles/breakpoints.scss';
+
 .Illust{
     & > img, div{
         z-index: -1;
     }
     & > .Piece_1 {
-        top: 302px;
-        position: absolute;
-        width: 92px;
-        height: 146px;
+        @media(min-width: $large) {
+            top: 302px;
+            position: absolute;
+            width: 92px;
+            height: 146px;
+        }
+
+        @media(max-width: $large) {
+            display: none;
+        }
     }
 
     & > .Piece_2{
-        left: 148px;
-        top: 1840px;
-        position: absolute;
+        @media(min-width: $large) {
+            left: 148px;
+            top: 1840px;
+            position: absolute;
+        }
+
+        @media(max-width: $large) {
+            position: absolute;
+            margin-left: -22px;
+            top: 1429px;
+        }
     }
 
     & > .Piece_3{
-        right: 218px;
-        top: 2045px;
-        position: absolute;
+        @media(min-width: $large) {
+            right: 218px;
+            top: 2045px;
+            position: absolute;
+        }
+        @media(max-width: $large) {
+            display: none;
+        }
     }
 
     & > .Landing_illust_1{
-        top: 64px;
-        position: absolute;
-        right: 0;
-        width: 696px;
-        height: 742px;
+        @media(min-width: $large) {
+            top: 64px;
+            position: absolute;
+            right: 0;
+            width: 696px;
+            height: 742px;
+        }
+
+        @media(max-width: $large) {
+            position: absolute;
+            width: 336.3px;
+            height: 358px;
+            object-fit: contain;
+            top: 88px;
+            right: 0;
+        }
     }
 
     & > .Landing_illust_2 {
-        position: absolute;
-        left: 62px;
-        top: 972px;
-        width: 639px;
-        height: 475px;
         background-image: url("../..//assets/landing-illust-2.svg");
+
+        @media (min-width: $large) {
+            position: absolute;
+            left: 62px;
+            top: 972px;
+            width: 639px;
+            height: 475px;
+        }
+
+        @media(max-width: $large) {
+            margin-left: calc((100% - 312px)/2);
+            margin-right: auto;
+            background-size: 312px;
+            position: absolute;
+            top: 784px;
+            width: 312px;
+            height: 232px;
+            object-fit: contain;
+        }
 
         & > span{
             position: absolute;
@@ -44,14 +90,30 @@
             color: #ffffff;
             top: 55px;
             right: 95px;
+
+            @media (max-width: $large) {
+                top: 25px;
+                font-size: 18px;
+                right: 41px;
+            }
         }
     }
 
     & > .Landing_illust_3{
-        top: 2554px;
-        position: absolute;
-        left: 153px;
-        width: 603px;
-        height: 487px;
+        @media(min-width: $large) {
+            top: 2554px;
+            position: absolute;
+            left: 153px;
+            width: 603px;
+            height: 487px;
+        }
+
+        @media(max-width: $large) {
+            margin-left: calc((100% - 313px)/2);
+            width: 313px;
+            height: 252px;
+            position: absolute;
+            top: 2001px;
+        }
     }
 }
