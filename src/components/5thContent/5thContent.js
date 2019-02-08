@@ -21,6 +21,9 @@ export default class Content5th extends Component {
             <a href='https://play.google.com/apps'><img src={playstore} alt=""/></a>
             <a href='https://www.apple.com/kr/ios/app-store/'><img src={appstore} alt=""/></a>
           </div>
+          <button>
+            시작하기
+          </button>
         </div>
     )
   }
