@@ -5,8 +5,10 @@ import styles from './Footer.scss';
 import MaterialIcon from 'material-icons-react';
 
 import logofooter from '../../assets/ic-footer-ryde.svg'
-import luancherslogo from '../../assets/logo-header-launchers.svg';
+import luanchersheader from '../../assets/logo-header-launchers.svg';
 import luanchers from '../../assets/ic-launchers.svg'
+import luancherslogo from '../../assets/logo-launchers.svg';
+import IconCollabo from '../../assets/ic-collabo.svg';
 
 import IconYoutube from '../../assets/ic-footer-youtube.svg';
 import IconFacebook from '../../assets/ic-footer-facebook.svg';
@@ -21,7 +23,7 @@ export default class Footer extends Component {
     return (
         <div className={cx('Footer')}>
           <div className='icons'>
-            <img src={luancherslogo} alt="launchers" className='logo-header-launchers'/>
+            <img src={luanchersheader} alt="launchers" className='logo-header-launchers'/>
             <img src={luanchers} alt="launchers" className='ic_launchers'/> <br/>
             <div>
               <MaterialIcon icon='close' size='18' color='#5a5e69'/>
@@ -54,6 +56,10 @@ export default class Footer extends Component {
               <a href="mailto:woojoo@softmarshmallow.com">woojoo@softmarshmallow.com</a>
               <a href="tel:02-837-7753">02-837-7753</a>
             </span>
+            <span>
+              <a href="mailto:woojoo@softmarshmallow.com">woojoo@softmarshmallow.com</a>
+              <a href="tel:02-837-7753">02-837-7753</a>
+            </span>
 
             <div className='Footer-menu-item'>
               <a href='https://www.youtube.com/' className='Footer-menu-icon'><img src={IconYoutube} className='Footer-menu-icon' alt='go to launchers youtube' /></a>
@@ -62,6 +68,15 @@ export default class Footer extends Component {
               <a href='https://www.instagram.com/' className='Footer-menu-icon'><img src={IconInstagram} className='Footer-menu-icon' alt='go to launchers instagram' /></a>
               <a href='https://www.medium.com/' className='Footer-menu-icon'><img src={IconMedium} className='Footer-menu-icon' alt='go to launchers medium' /></a>
             </div>
+          </div>
+
+          <div className="mobilelogo">
+            <div>
+              <img src={luancherslogo} alt="launchers" className='logo-launchers'/>
+              <img src={IconCollabo} alt="collabo" className='ic-collabo'/>
+              <img src={logofooter} alt="RYDE" className='ic-footer-ryde'/>
+            </div>
+            <p>© 2019 Launchers X RYDE</p>
           </div>
         </div>
     )
