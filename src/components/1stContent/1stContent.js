@@ -18,12 +18,15 @@ export default class Content1st extends Component {
             <img src={logo} alt="RYDE"/> 로 달리세요!
           </span>
           <p>
-          걷기엔 멀고, 차타기엔 애매한 적 많죠? 이젠 RYDE로 달리세요!
+          걷기엔 멀고, 차타기엔 애매한 적 많죠? <br/>이젠 RYDE로 달리세요!
           </p>
           <div className="AppStore">
             <a href='https://play.google.com/apps'><img src={playstore} alt=""/></a>
             <a href='https://www.apple.com/kr/ios/app-store/'><img src={appstore} alt=""/></a>
           </div>
+          <button>
+            시작하기
+          </button>
         </div>
     )
   }

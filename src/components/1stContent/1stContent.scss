@@ -1,13 +1,20 @@
 @import '../../styles/_colors.scss';
+@import '../../styles/breakpoints.scss';
 
 .content-1st{
-    margin-left: 13%;
-    margin-top: 243px;
+    @media(min-width: $large) {
+        margin-left: 13%;
+        margin-top: 243px;
+    }
+
+    @media(max-width: $large) {
+        margin: none;
+        margin-top: 478px;
+        text-align: center;
+    }
 
     & > span{
         display: inline-block;
-    
-        height: 71px;
         font-size: 48px;
         font-weight: 300;
         font-style: normal;
@@ -15,7 +22,22 @@
         line-height: normal;
         letter-spacing: normal;
         color: $fontColor;
+
+        @media(max-width: $large) {
+            height: auto;
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        @media(min-width: $large) {
+            height: 36px;
+            height: 71px;
+        }
         & > img{
+            @media(max-width: $large) {
+                width: 92px;
+                height: 20px;
+            }
             margin-left: 3px;
             width: 189.1px;
             height: 40.9px;
@@ -26,6 +48,12 @@
         margin-top: 32px;
         margin-bottom: 0px;
         font-size: 16px;
+        
+        @media (min-width: $large) {
+            & > br  {
+            content: ' '
+            }  
+        }
     }
 
     & > div{
@@ -33,11 +61,31 @@
         display: flex;
         justify-content: space-between;
         width: 450px;
+
+        @media(max-width: $large) {
+            display: none;
+        }
         & > a{
             & > img{
                 width: 213px;
                 height: 64px;
             }
+        }
+    }
+
+    & > button{
+        border: 3px solid $mainColor;
+        border-radius: 18px;
+        margin-top: 32px;
+        padding: 8px 36px;
+        background-color: #fff;
+        color: $mainColor;
+        font-size: 14px;
+        font-weight: bold;
+
+
+        @media(min-width: $large) {
+            display: none;
         }
     }
 }
