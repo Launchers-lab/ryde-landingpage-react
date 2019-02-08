@@ -38,6 +38,27 @@ export default class Content2nd extends Component {
             </div>
           </div>
 
+          <ul>
+            <li>
+              <div className="check">
+                <MaterialIcon icon='check' color='#2070ee' size='18' />
+              </div>
+              <div className="content">스쿠터 사용</div>
+            </li>
+            <li>
+              <div className="check">
+                <MaterialIcon icon='check' color='#2070ee' size='18' />
+              </div>
+              <div className="content">처음 1,000원으로 잠금 해제</div>
+            </li>
+            <li>
+              <div className="check">
+                <MaterialIcon icon='check' color='#2070ee' size='18' />
+              </div>
+              <div className="content">어디서든 시작하고 원하는 곳에서 종료</div>
+            </li>
+          </ul>
+
           <div className="letters-wrap">
             <div className="letters">
               <span>
@@ -49,6 +70,7 @@ export default class Content2nd extends Component {
               </p>
             </div>
           </div>
+
         </div>
     )
   }
