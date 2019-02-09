@@ -15,7 +15,7 @@
             width: 250px;
             height: 36px;
             justify-content: center;
-            margin: 250px auto 0px auto;
+            margin: 270px auto 0px auto;
             text-align: center;
             font-size: 24px;
             display: inline-block;
@@ -43,13 +43,17 @@
     }
 
     & > a{
+        @media (min-width: $large) {
+            margin: 42px 0px 0px 217px;
+            width: 167px;
+        }
         @media (max-width: $large) {
             margin: 40px auto 0px auto;
+            width: 142px;
         }
         
         & > button{
             @media (min-width: $large) {
-                margin: 42px 217px 0px 0px;
                 padding: 11px 30px;
             }
 
