@@ -43,16 +43,19 @@
     }
 
     & > div{
+      width: 100%;
+      padding-left: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+
       & > img.ic-footer-ryde {
         margin-left: 10px;
         width: 63px;
         height: 14px;
         object-fit: contain;
       }
-  
-      & > i{
-        margin-left: 50px;
-      }
+
     }
 
     & > p{
