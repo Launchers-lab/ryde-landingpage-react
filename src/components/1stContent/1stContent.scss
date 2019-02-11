@@ -2,12 +2,12 @@
 @import '../../styles/breakpoints.scss';
 
 .content-1st{
-    @media(min-width: $large) {
+    @media(min-width: $small) {
         margin-left: 13%;
         margin-top: 243px;
     }
 
-    @media(max-width: $large) {
+    @media(max-width: $small) {
         margin-left: 0px;
         margin-top: 478px;
         text-align: center;
@@ -23,18 +23,18 @@
         letter-spacing: normal;
         color: $fontColor;
 
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             height: auto;
             font-size: 24px;
             font-weight: 300;
         }
 
-        @media(min-width: $large) {
+        @media(min-width: $small) {
             height: 36px;
             height: 71px;
         }
         & > img{
-            @media(max-width: $large) {
+            @media(max-width: $small) {
                 width: 92px;
                 height: 20px;
             }
@@ -49,7 +49,7 @@
         margin-bottom: 0px;
         font-size: 16px;
         
-        @media (min-width: $large) {
+        @media (min-width: $small) {
             & > br  {
             content: ' '
             }  
@@ -62,7 +62,7 @@
         justify-content: space-between;
         width: 450px;
 
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             display: none;
         }
         & > a{
@@ -84,7 +84,7 @@
         font-weight: bold;
 
 
-        @media(min-width: $large) {
+        @media(min-width: $small) {
             display: none;
         }
     }

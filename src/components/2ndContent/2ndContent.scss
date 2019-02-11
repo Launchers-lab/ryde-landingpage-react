@@ -2,7 +2,7 @@
 @import '../../styles/breakpoints';
 
 .content-2nd{
-    @media(max-width: $large) {
+    @media(max-width: $small) {
         margin-top: 350px;
         margin-left: 0;
         justify-content: space-around;
@@ -10,7 +10,7 @@
         flex-direction: column;
     }
 
-    @media(min-width: $large) {
+    @media(min-width: $small) {
         margin-left: 361px;
         margin-top: 520px;
         min-width: 837px;
@@ -19,7 +19,7 @@
     display: flex;
 
     & > ul{
-        @media(min-width: $large) {
+        @media(min-width: $small) {
             display: none;
         }
         list-style: none;
@@ -52,7 +52,7 @@
     }
     
     & > div.letters-wrap{
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             width: calc(100% - 48px);
         }
         width: calc(100% - 416px);
@@ -62,11 +62,11 @@
         & > div.letters{
             margin-top: 50px;
             display: inline-block;
-            @media(max-width: $large) {
+            @media(max-width: $small) {
                 text-align: center;
             }
             & > span{
-                @media(max-width: $large) {
+                @media(max-width: $small) {
                     font-size: 24px;
                 }
                 font-size: 36px;
@@ -74,7 +74,7 @@
                 color: $fontColor;
             }
             & > p{
-                @media(max-width: $large) {
+                @media(max-width: $small) {
                     font-size: 24px;
                     font-size: 14px;                  
                     margin-top: 18px;
@@ -93,7 +93,7 @@
     }
 
     & > div.checks{
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             display: none;
         }
 

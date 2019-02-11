@@ -5,26 +5,26 @@
         z-index: -1;
     }
     & > .Piece_1 {
-        @media(min-width: $large) {
+        @media(min-width: $small) {
             top: 302px;
             position: absolute;
             width: 92px;
             height: 146px;
         }
 
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             display: none;
         }
     }
 
     & > .Piece_2{
-        @media(min-width: $large) {
+        @media(min-width: $small) {
             left: 148px;
             top: 1840px;
             position: absolute;
         }
 
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             position: absolute;
             margin-left: -22px;
             top: 1429px;
@@ -32,18 +32,18 @@
     }
 
     & > .Piece_3{
-        @media(min-width: $large) {
+        @media(min-width: $small) {
             right: 218px;
             top: 2045px;
             position: absolute;
         }
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             display: none;
         }
     }
 
     & > .Landing_illust_1{
-        @media(min-width: $large) {
+        @media(min-width: $small) {
             top: 64px;
             position: absolute;
             right: 0;
@@ -51,7 +51,7 @@
             height: 742px;
         }
 
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             position: absolute;
             width: 336.3px;
             height: 358px;
@@ -64,7 +64,7 @@
     & > .Landing_illust_2 {
         background-image: url("../..//assets/landing-illust-2.svg");
 
-        @media (min-width: $large) {
+        @media (min-width: $small) {
             position: absolute;
             left: 62px;
             top: 972px;
@@ -72,7 +72,7 @@
             height: 475px;
         }
 
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             margin-left: calc((100% - 312px)/2);
             margin-right: auto;
             background-size: 312px;
@@ -91,7 +91,7 @@
             top: 55px;
             right: 95px;
 
-            @media (max-width: $large) {
+            @media (max-width: $small) {
                 top: 25px;
                 font-size: 18px;
                 right: 41px;
@@ -100,7 +100,7 @@
     }
 
     & > .Landing_illust_3{
-        @media(min-width: $large) {
+        @media(min-width: $small) {
             top: 2554px;
             position: absolute;
             left: 153px;
@@ -108,7 +108,7 @@
             height: 487px;
         }
 
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             margin-left: calc((100% - 313px)/2);
             width: 313px;
             height: 252px;
