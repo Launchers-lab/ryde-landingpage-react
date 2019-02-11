@@ -61,7 +61,7 @@
         margin-left: auto;
         margin-right: auto;
 
-        @media(min-width: $large) {
+        @media(min-width: $small) {
             display: none;
         }
     }
