@@ -30,6 +30,7 @@
         }
 
         @media(min-width: $small) {
+            width: 450px !important;
             height: 36px;
             height: 71px;
         }
@@ -45,6 +46,7 @@
     }
 
     & > p{
+        width: 450px !important; 
         margin-top: 32px;
         margin-bottom: 0px;
         font-size: 16px;
