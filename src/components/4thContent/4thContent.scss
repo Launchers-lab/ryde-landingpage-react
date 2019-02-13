@@ -12,7 +12,7 @@
     justify-content: center;
 
     & > div{
-        width: 361px;
+        min-width: 380px;
         & > span{
             @media(max-width: $small) {
                 font-size: 24px;
