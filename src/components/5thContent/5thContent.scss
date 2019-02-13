@@ -2,8 +2,12 @@
 @import '../../styles/breakpoints';
 
 .content-5th{
-    @media(max-width: $large) {
+    @media(max-width: $small) {
         margin-top: 160px;
+    }
+
+    @media(min-width: $small) {
+        min-width: 680px !important;
     }
     display: flex;
     flex-direction: column;
@@ -11,7 +15,7 @@
     text-align: center;
     margin-top: 378px;
     & > p{
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             font-size: 24px;
             font-weight: 300 !important;
         }
@@ -20,7 +24,7 @@
         font-size: 48px;
         font-weight: 300;
         & > img{
-            @media(max-width: $large) {
+            @media(max-width: $small) {
                 width: 92px;
                 height: 20px;
             }
@@ -31,7 +35,7 @@
     }
 
     & > div.AppStore{
-        @media(max-width: $large) {
+        @media(max-width: $small) {
             display: none;
         }
         margin-top: 64px;
