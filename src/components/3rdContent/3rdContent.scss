@@ -22,7 +22,9 @@
             margin-top: 18px;
         }
 
-        margin-left: 217px !important;
+        @media (min-width: $small) {
+            margin-left: 217px !important;
+        }
         font-size: 36px;
         font-weight: bold;
         color: $fontColor;
