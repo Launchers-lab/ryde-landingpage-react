@@ -194,6 +194,9 @@
     }
 
     & > span:nth-child(2){
+      @media(min-width: $small) {
+        display: none;
+      }
       width: 250px;
       display: flex;
       flex-direction: row;
