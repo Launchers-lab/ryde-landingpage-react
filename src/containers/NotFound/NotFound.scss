@@ -4,6 +4,16 @@
 .NotFound{
     display: flex;
     flex-direction: column;
+    & > img{
+        @media (min-width: $small) {
+            position: absolute;
+            margin-top: 250px;
+            margin-left: 720px;
+        }
+
+        @media (max-width: $small) {
+        }
+    }
     & > h1{
         @media (min-width: $small) {
             margin-top: 389px;
