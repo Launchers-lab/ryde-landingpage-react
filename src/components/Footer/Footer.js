@@ -23,7 +23,7 @@ export default class Footer extends Component {
     return (
         <div className={cx('Footer')}>
           <div className='icons'>
-            <a href="//launchers.io/">
+            <a href="//launchrs.io/">
               <img src={luanchersheader} alt="launchers" className='logo-header-launchers'/>
               <img src={luanchers} alt="launchers" className='ic_launchers'/>
             </a> <br/>
