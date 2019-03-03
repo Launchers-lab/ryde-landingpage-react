@@ -56,21 +56,21 @@ export default class Content3rd extends Component {
               <span>MinHyuk Lee</span>
               <div>Illustrator</div>
               <p>
-                RYDE 일러스트 디자이너 이민혁입니다{'><'} 일하는거 좋아해요
+                RYDE 일러스트레이터 이민혁입니다{'><'} 일하는거 좋아해요.
               </p>
             </div>
             <div className="cards">
               <span>SeungJoon Park</span>
               <div>Hardware Developer</div>
               <p>
-                저는 광주소프트웨어마이스터고등학교 최대 킹갓 개발자입니다.
+                하드웨어를 담당하고 있는 박승준입니다.
               </p>
             </div>
             <div className="cards">
               <span>TaeGeon Go</span>
               <div>Web Developer</div>
               <p>
-              RYDE의 막내 웹개발자 입니당{'><'} 반항기라 굴려도 잘 안구릅니당
+              RYDE의 막내 웹개발자 입니당{'><'} 반항기라 굴려도 잘 안구릅니당.
               </p>
             </div>
             <div></div>
