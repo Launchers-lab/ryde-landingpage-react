@@ -63,7 +63,7 @@ export default class Content3rd extends Component {
               <span>SeungJoon Park</span>
               <div>Hardware Developer</div>
               <p>
-                He comes from the non-acting branch of the Coppola family: his father August (brother of Francis)
+                저는 광주소프트웨어마이스터고등학교 최대 킹갓 개발자입니다.
               </p>
             </div>
             <div className="cards">
