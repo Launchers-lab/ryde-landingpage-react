@@ -23,8 +23,10 @@ export default class Footer extends Component {
     return (
         <div className={cx('Footer')}>
           <div className='icons'>
-            <img src={luanchersheader} alt="launchers" className='logo-header-launchers'/>
-            <img src={luanchers} alt="launchers" className='ic_launchers'/> <br/>
+            <a href="//launchers.io/">
+              <img src={luanchersheader} alt="launchers" className='logo-header-launchers'/>
+              <img src={luanchers} alt="launchers" className='ic_launchers'/>
+            </a> <br/>
             <div>
               <MaterialIcon icon='close' size='18' color='#5a5e69'/>
               <img src={logofooter} alt="RYDE" className='ic-footer-ryde'/>

@@ -27,13 +27,13 @@
     margin-top: 80px;
     align-items: center;
 
-    & > img.logo_header_launchers {
+    & > a > img.logo_header_launchers {
       width: 35px;
       height: 33px;
       object-fit: contain;
     }
 
-    & > img.ic_launchers {
+    & > a > img.ic_launchers {
       margin-top: 9px;
       margin-bottom: 6px;
       width: 103px;
