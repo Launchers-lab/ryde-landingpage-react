@@ -109,7 +109,32 @@
             }
 
             &:nth-child(2){
-                background-image: url('../../assets/ceo.png') !important;
+                background-image: url('../../assets/1.png') !important;
+                background-position: center center;
+            }
+
+            &:nth-child(3){
+                background-image: url('../../assets/2.png') !important;
+                background-position: center center;
+            }
+
+            &:nth-child(4){
+                background-image: url('../../assets/3.png') !important;
+                background-position: center center;
+            }
+
+            &:nth-child(5){
+                background-image: url('../../assets/4.png') !important;
+                background-position: center center;
+            }
+
+            &:nth-child(6){
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
+                background-position: center center;
+            }
+
+            &:nth-child(7){
+                background-image: url('../../assets/5.png') !important;
                 background-position: center center;
             }
             margin-right: 28px;
@@ -125,8 +150,6 @@
             }
 
             &:not(:first-child){
-                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
-                // opacity: 0.4;
                 display: inline-block;
 
                 & > span:nth-child(1){
