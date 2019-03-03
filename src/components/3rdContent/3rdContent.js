@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import { Link } from 'react-router-dom'
 import * as classNames from 'classnames/bind'
 import styles from './3rdContent.scss'
 
@@ -27,7 +27,7 @@ export default class Content3rd extends Component {
                 우리는 언제나 당신을 맞을 <br/>
                 준비가 되어있습니다.
                 </p>
-                <button>지원하기</button>
+                <button><Link to="apply">지원하기</Link></button>
               </span>
               
 
