@@ -107,6 +107,11 @@
                 min-width: 162px;
                 height: 236px;
             }
+
+            &:nth-child(2){
+                background-image: url('../../assets/ceo.png') !important;
+                background-position: center center;
+            }
             margin-right: 28px;
             min-width: 294px;
             height: 428px;
@@ -121,7 +126,7 @@
 
             &:not(:first-child){
                 background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000);
-                opacity: 0.4;
+                // opacity: 0.4;
                 display: inline-block;
 
                 & > span:nth-child(1){
