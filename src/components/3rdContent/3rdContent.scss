@@ -101,6 +101,12 @@
             min-width: 100px;
             background-color: rgba(255, 255, 255, 0);
             z-index: -1;
+        }
+        & > .cards{
+            @media(max-width: $small) {
+                min-width: 162px;
+                height: 236px;
+                
 
             &:nth-child(2){
                 background-image: url('../../assets/1-mobile.png') !important;
@@ -128,33 +134,28 @@
             }
 
             &:nth-child(7){
-                background-image: url('../../assets/6-mobile.png') !important;
+                background-image: url('../../assets/6-mobile.png');
                 background-position: center center;
             }
-        }
-        & > .cards{
-            @media(max-width: $small) {
-                min-width: 162px;
-                height: 236px;
             }
 
             &:nth-child(2){
-                background-image: url('../../assets/1.png') !important;
+                background-image: url('../../assets/1.png');
                 background-position: center center;
             }
 
             &:nth-child(3){
-                background-image: url('../../assets/2.png') !important;
+                background-image: url('../../assets/2.png');
                 background-position: center center;
             }
 
             &:nth-child(4){
-                background-image: url('../../assets/3.png') !important;
+                background-image: url('../../assets/3.png');
                 background-position: center center;
             }
 
             &:nth-child(5){
-                background-image: url('../../assets/4.png') !important;
+                background-image: url('../../assets/4.png');
                 background-position: center center;
             }
 
