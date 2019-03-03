@@ -33,7 +33,7 @@ export default class Content2nd extends Component {
                 <div className="check">
                   <MaterialIcon icon='check' color='#2070ee' size='36' />
                 </div>
-                <div className="content">어디서든 시작하고 원하는 곳에서 종료</div>
+                <div className="content 3rdcont">어디서든 시작하고 원하는 곳에서 종료</div>
               </div>
             </div>
           </div>
