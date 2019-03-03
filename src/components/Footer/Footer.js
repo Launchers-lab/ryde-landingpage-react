@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom'
 import * as classNames from 'classnames/bind'
 import styles from './Footer.scss';
 import MaterialIcon from 'material-icons-react';
@@ -43,10 +43,10 @@ export default class Footer extends Component {
           <div className="policy">
             <span>
               Terms of Service & Privacy Policy
-              <a href='https://www.naver.com'>서비스 이용 약관</a>
-              <a href='https://www.naver.com'>개인정보 처리 방침</a>
-              <a href='https://www.naver.com'>판매 금지 항목</a>
-              <a href='https://www.naver.com'>배송 및 환불 안내</a>
+              <Link to='/terms'>서비스 이용 약관</Link>
+              <Link to='/privacy'>개인정보 처리 방침</Link>
+              <Link to='/prohibition'>판매 금지 항목</Link>
+              <Link to='/delivery'>배송 및 환불 안내</Link>
             </span>
           </div>
 
@@ -62,11 +62,11 @@ export default class Footer extends Component {
             </span>
 
             <div className='Footer-menu-item'>
-              <a href='https://www.youtube.com/' className='Footer-menu-icon'><img src={IconYoutube} className='Footer-menu-icon' alt='go to launchers youtube' /></a>
+              <Link to='/youtube' className='Footer-menu-icon'><img src={IconYoutube} className='Footer-menu-icon' alt='go to launchers youtube' /></Link>
               <a href='https://www.facebook.com/rydeapp.io/' className='Footer-menu-icon'><img src={IconFacebook} alt='go to launchers facebook' /></a>
               <a href='https://github.com/orgs/Launchers-lab/teams' className='Footer-menu-icon'><img src={IconGithub} className='Footer-menu-icon' alt='go to launchers github' /></a>
-              <a href='https://www.instagram.com/' className='Footer-menu-icon'><img src={IconInstagram} className='Footer-menu-icon' alt='go to launchers instagram' /></a>
-              <a href='https://www.medium.com/' className='Footer-menu-icon'><img src={IconMedium} className='Footer-menu-icon' alt='go to launchers medium' /></a>
+              <Link to='/instagram' className='Footer-menu-icon'><img src={IconInstagram} className='Footer-menu-icon' alt='go to launchers instagram' /></Link>
+              <Link to='/medium' className='Footer-menu-icon'><img src={IconMedium} className='Footer-menu-icon' alt='go to launchers medium' /></Link>
             </div>
           </div>
 
