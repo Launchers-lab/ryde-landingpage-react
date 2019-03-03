@@ -27,7 +27,7 @@ export default class Content3rd extends Component {
                 우리는 언제나 당신을 맞을 <br/>
                 준비가 되어있습니다.
                 </p>
-                <button><Link to="apply">지원하기</Link></button>
+                <button><a href="https://www.rocketpunch.com/companies/launchers/">지원하기</a></button>
               </span>
               
 
