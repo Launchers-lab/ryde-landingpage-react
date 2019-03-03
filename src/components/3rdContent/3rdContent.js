@@ -33,24 +33,45 @@ export default class Content3rd extends Component {
 
             </div>
             <div className="cards">
-              <span>First name</span>
+              <span>WooJoo Jung</span>
               <div>CEO</div>
+              <p>
+                한국 모빌리티 시장에 도전장을 내미는 대표 정우주 입니다.
+              </p>
+            </div>
+            <div className="cards">
+              <span>JinWon Kim</span>
+              <div>Product Designer</div>
+              <p>
+                RYDE의 제품 설계를 맡고있는 김진원입니다.
+              </p>
+            </div>
+            <div className="cards">
+              <span>YoungHa Kim</span>
+              <div>Back-End Developer</div>
+              <p>
+                "백엔드 개발자 김영하입니다"
+              </p>
+            </div>
+            <div className="cards">
+              <span>MinHyuk Lee</span>
+              <div>Illustrator</div>
+              <p>
+                RYDE 일러스트 디자이너 이민혁입니다{'><'} 일하는거 좋아해요
+              </p>
+            </div>
+            <div className="cards">
+              <span>SeungJoon Park</span>
+              <div>Hardware Developer</div>
               <p>
                 He comes from the non-acting branch of the Coppola family: his father August (brother of Francis)
               </p>
             </div>
             <div className="cards">
-              <span>First name</span>
-              <div>CEO</div>
+              <span>TaeGeon Go</span>
+              <div>Web Developer</div>
               <p>
-                He comes from the non-acting branch of the Coppola family: his father August (brother of Francis)
-              </p>
-            </div>
-            <div className="cards">
-              <span>First name</span>
-              <div>CEO</div>
-              <p>
-                He comes from the non-acting branch of the Coppola family: his father August (brother of Francis)
+              RYDE의 막내 웹개발자 입니당{'><'} 반항기라 굴려도 잘 안구릅니당
               </p>
             </div>
             <div></div>
