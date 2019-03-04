@@ -47,8 +47,6 @@ export default class Footer extends Component {
               Terms of Service & Privacy Policy
               <Link to='/terms'>서비스 이용 약관</Link>
               <Link to='/privacy'>개인정보 처리 방침</Link>
-              <Link to='/prohibition'>판매 금지 항목</Link>
-              <Link to='/delivery'>배송 및 환불 안내</Link>
             </span>
           </div>
 
@@ -65,8 +63,8 @@ export default class Footer extends Component {
 
             <div className='Footer-menu-item'>
               <Link to='/youtube' className='Footer-menu-icon'><img src={IconYoutube} className='Footer-menu-icon' alt='go to launchers youtube' /></Link>
-              <a href='https://www.facebook.com/rydeapp.io/' className='Footer-menu-icon'><img src={IconFacebook} alt='go to launchers facebook' /></a>
-              <a href='https://github.com/orgs/Launchers-lab/teams' className='Footer-menu-icon'><img src={IconGithub} className='Footer-menu-icon' alt='go to launchers github' /></a>
+              <a href='//www.facebook.com/rydeapp.io/' className='Footer-menu-icon'><img src={IconFacebook} alt='go to launchers facebook' /></a>
+              <a href='//github.com/orgs/Launchers-lab/teams/' className='Footer-menu-icon'><img src={IconGithub} className='Footer-menu-icon' alt='go to launchers github' /></a>
               <Link to='/instagram' className='Footer-menu-icon'><img src={IconInstagram} className='Footer-menu-icon' alt='go to launchers instagram' /></Link>
               <Link to='/medium' className='Footer-menu-icon'><img src={IconMedium} className='Footer-menu-icon' alt='go to launchers medium' /></Link>
             </div>
