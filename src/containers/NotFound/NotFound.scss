@@ -52,32 +52,25 @@
         font-weight: normal;
         color: $FontColor404
     }
-
-    & > a{
+    
+    & > button{
         @media (min-width: $small) {
+            padding: 11px 30px;
             margin: 42px 0px 0px 217px;
             width: 167px;
         }
+
         @media (max-width: $small) {
+            padding: 8px 17.5px;
             margin: 40px auto 0px auto;
             width: 142px;
         }
-        
-        & > button{
-            @media (min-width: $small) {
-                padding: 11px 30px;
-            }
-
-            @media (max-width: $small) {
-                padding: 8px 17.5px;
-            }
-            background-color: #fff;
-            border: 3px solid $mainColor;
-            border-radius: 21px;
-            font-size: 14px;
-            font-weight: bold;
-            color: $mainColor;
-            text-decoration: none;
-        }
+        background-color: #fff;
+        border: 3px solid $mainColor;
+        border-radius: 21px;
+        font-size: 14px;
+        font-weight: bold;
+        color: $mainColor;
+        text-decoration: none;
     }
 }
