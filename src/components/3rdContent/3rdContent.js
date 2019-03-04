@@ -49,7 +49,7 @@ export default class Content3rd extends Component {
               <span>YoungHa Kim</span>
               <div>Back-End Developer</div>
               <p>
-                "백엔드 개발자 김영하입니다"
+                "백엔드 개발자 김영하입니다."
               </p>
             </div>
             <div className="cards">
@@ -63,14 +63,14 @@ export default class Content3rd extends Component {
               <span>SeungJoon Park</span>
               <div>Hardware Developer</div>
               <p>
-                하드웨어를 담당하고 있는 박승준입니다.
+                저는 광주소프트웨어마이스터고등학교 최대 킹갓 개발자입니다.
               </p>
             </div>
             <div className="cards">
               <span>TaeGeon Go</span>
               <div>Web Developer</div>
               <p>
-              RYDE의 막내 웹개발자 입니당{'><'} 반항기라 굴려도 잘 안구릅니당.
+              RYDE의 막내 웹개발자 입니당{'><'} 반항기라 굴려도 잘 안굴러요~
               </p>
             </div>
             <div></div>
