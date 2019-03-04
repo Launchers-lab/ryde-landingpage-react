@@ -7,6 +7,15 @@ import logo from '../../assets/ic-logo-big.svg'
 const cx = classNames.bind(styles)
 
 export default class Content3rd extends Component {
+  constructor(props){
+    super(props)
+
+    this.onClick = this.onClick.bind(this)
+  }
+  onClick(e){
+    console.log('clicked')
+    window.location.href = "//www.rocketpunch.com/companies/launchers/"
+  }
   render () {
     return (
         <div className={cx('content-3rd')}>
@@ -26,7 +35,9 @@ export default class Content3rd extends Component {
                 우리는 언제나 당신을 맞을 <br/>
                 준비가 되어있습니다.
                 </p>
-                <button><a href="https://www.rocketpunch.com/companies/launchers/">지원하기</a></button>
+                <button onClick={this.onClick}>
+                  <a href="//www.rocketpunch.com/companies/launchers/">지원하기</a>
+                </button>
               </span>
               
 
