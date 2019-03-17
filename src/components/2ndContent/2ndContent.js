@@ -4,11 +4,13 @@ import MaterialIcon from 'material-icons-react'
 import * as classNames from 'classnames/bind'
 import styles from './2ndContent.scss'
 
-
 const cx = classNames.bind(styles)
+
+const OSName = navigator.appVersion.indexOf("Mac") !== -1 ? "MacOS" : "Windows"
 
 export default class Content2nd extends Component {
   render () {
+    console.log(OSName)
     return (
         <div className={cx('content-2nd')}>
           <div className="checks">
@@ -33,7 +35,7 @@ export default class Content2nd extends Component {
                 <div className="check">
                   <MaterialIcon icon='check' color='#2070ee' size='36' />
                 </div>
-                <div className="content 3rdcont">어디서든 시작하고 원하는 곳에서 종료</div>
+                <div className={"content " + OSName}>어디서든 시작하고 원하는 곳에서 종료</div>
               </div>
             </div>
           </div>
