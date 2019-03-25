@@ -21,7 +21,7 @@ export default class Content1st extends Component {
           걷기엔 멀고, 차타기엔 애매한 적 많죠? <br/>이젠 RYDE로 달리세요!
           </p>
           <div className="AppStore">
-            <a href='https://play.google.com/apps'><img src={playstore} alt=""/></a>
+            <a href='https://play.google.com/store/apps/details?id=io.rydeapp.ryde'><img src={playstore} alt=""/></a>
             <a href='https://www.apple.com/kr/ios/app-store/'><img src={appstore} alt=""/></a>
           </div>
           <button>

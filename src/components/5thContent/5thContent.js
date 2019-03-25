@@ -18,7 +18,7 @@ export default class Content5th extends Component {
             <img src={logo} alt="RYDE"/>와 함께 경험하세요!
           </p>
           <div className="AppStore">
-            <a href='https://play.google.com/apps'><img src={playstore} alt=""/></a>
+            <a href='https://play.google.com/store/apps/details?id=io.rydeapp.ryde'><img src={playstore} alt=""/></a>
             <a href='https://www.apple.com/kr/ios/app-store/'><img src={appstore} alt=""/></a>
           </div>
           <button>
