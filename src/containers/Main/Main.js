@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import * as classNames from "classnames/bind";
-import Helmet from "react-helmet";
 
 import styles from "./Main.scss";
 
@@ -16,9 +15,6 @@ export default class Main extends Component {
   render() {
     return (
       <div className={cx("Main")}>
-        <Helmet>
-          <title>RYDE</title>
-        </Helmet>
         <Illust />
 
         <Content1st />
