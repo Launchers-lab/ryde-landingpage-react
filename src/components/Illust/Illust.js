@@ -24,7 +24,6 @@ export default class Illust extends Component {
   render() {
     return (
       <div className={cx("Illust")}>
-        <img src={piece1} className="Piece_1" alt="Piece_1" />
         <img src={piece2} className="Piece_2" alt="Piece_2" />
         <img src={piece3} className="Piece_3" alt="Piece_3" />
 
