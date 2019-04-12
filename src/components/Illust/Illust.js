@@ -3,7 +3,6 @@ import moment from "moment";
 import * as classNames from "classnames/bind";
 import styles from "./Illust.scss";
 
-import piece1 from "../../assets/piece-1.svg";
 import piece2 from "../../assets/piece-2.svg";
 import piece3 from "../../assets/piece-3.svg";
 import LandingIllust1 from "../../assets/landing-illust-1.svg";
