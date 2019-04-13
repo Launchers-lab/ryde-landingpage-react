@@ -52,21 +52,25 @@
         }
     }
 
-    & > button{
-        min-width: 126px;
-        border: 3px solid $mainColor;
-        border-radius: 18px;
-        margin-top: 32px;
-        padding: 8px 36px;
-        background-color: #fff;
-        color: $mainColor;
-        font-size: 14px;
-        font-weight: bold;
-        margin-left: auto;
-        margin-right: auto;
-
+    & > .MobileAppStore{
         @media(min-width: $small) {
             display: none;
+        }
+
+        @media(max-width: $small) {
+            width: 100vw;
+            display: block;
+            margin: 32px 0px;
+        }
+
+        & > a{
+            &:nth-child(1){
+                margin-right: 16px;
+            }
+            & > img{
+                width: 113px;
+                height: 34px;
+            }
         }
     }
 }

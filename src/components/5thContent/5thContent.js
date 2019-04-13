@@ -6,7 +6,6 @@ import styles from "./5thContent.scss";
 import logo from "../../assets/ic-logo-big.svg";
 import playstore from "../../assets/playstore.svg";
 import appstore from "../../assets/appstore.svg";
-import { CheckOs } from "../../utils";
 
 const cx = classNames.bind(styles);
 
@@ -26,16 +25,14 @@ export default class Content5th extends Component {
             <img src={appstore} alt="" />
           </a>
         </div>
-        <button
-          onClick={() => {
-            window.location.href =
-              CheckOs() === "Android"
-                ? "https://play.google.com/store/apps/details?id=io.rydeapp.ryde"
-                : "https://itunes.apple.com/kr/app/ryde/id1453366845?mt=8&app=itunes&ign-mpt=uo%3D4";
-          }}
-        >
-          시작하기
-        </button>
+        <div className="MobileAppStore">
+          <a href="https://play.google.com/store/apps/details?id=io.rydeapp.ryde">
+            <img src={playstore} alt="" />
+          </a>
+          <a href="https://itunes.apple.com/kr/app/ryde/id1453366845?mt=8&app=itunes&ign-mpt=uo%3D4">
+            <img src={appstore} alt="" />
+          </a>
+        </div>
       </div>
     );
   }
