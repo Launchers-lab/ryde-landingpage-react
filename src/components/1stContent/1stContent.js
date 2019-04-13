@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import * as classNames from "classnames/bind";
 import { withRouter } from "react-router-dom";
-import { CheckOs } from "../../utils";
+// import { CheckOs } from "../../utils";
 import styles from "./1stContent.scss";
 
 import logo from "../../assets/ic-logo-big.svg";
@@ -15,6 +15,14 @@ class Content1st extends Component {
   render() {
     return (
       <div className={cx("content-1st")}>
+        <div className="MobileAppStore">
+          <a href="https://play.google.com/store/apps/details?id=io.rydeapp.ryde">
+            <img src={playstore} alt="" />
+          </a>
+          <a href="https://itunes.apple.com/kr/app/ryde/id1453366845?mt=8&app=itunes&ign-mpt=uo%3D4">
+            <img src={appstore} alt="" />
+          </a>
+        </div>
         <span>
           애매한 거리, <br />
           <img src={logo} alt="RYDE" /> 로 달리세요!
@@ -31,16 +39,6 @@ class Content1st extends Component {
             <img src={appstore} alt="" />
           </a>
         </div>
-        <button
-          onClick={() => {
-            window.location.href =
-              CheckOs() === "Android"
-                ? "https://play.google.com/store/apps/details?id=io.rydeapp.ryde"
-                : "https://itunes.apple.com/kr/app/ryde/id1453366845?mt=8&app=itunes&ign-mpt=uo%3D4";
-          }}
-        >
-          시작하기
-        </button>
       </div>
     );
   }

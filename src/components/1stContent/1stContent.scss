@@ -13,6 +13,28 @@
         text-align: center;
     }
 
+    & > .MobileAppStore{
+        @media(min-width: $small) {
+            display: none;
+        }
+
+        @media(max-width: $small) {
+            width: 100vw;
+            display: block;
+            margin: 32px 0px;
+        }
+
+        & > a{
+            &:nth-child(1){
+                margin-right: 16px;
+            }
+            & > img{
+                width: 113px;
+                height: 34px;
+            }
+        }
+    }
+
     & > span{
         display: inline-block;
         font-size: 48px;
@@ -76,22 +98,6 @@
                 width: 213px;
                 height: 64px;
             }
-        }
-    }
-
-    & > button{
-        border: 3px solid $mainColor;
-        border-radius: 18px;
-        margin-top: 32px;
-        padding: 8px 36px;
-        background-color: #fff;
-        color: $mainColor;
-        font-size: 14px;
-        font-weight: bold;
-
-
-        @media(min-width: $small) {
-            display: none;
         }
     }
 }
