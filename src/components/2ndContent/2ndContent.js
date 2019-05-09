@@ -10,7 +10,6 @@ const OSName = navigator.appVersion.indexOf("Mac") !== -1 ? "MacOS" : "Windows"
 
 export default class Content2nd extends Component {
   render () {
-    console.log(OSName)
     return (
         <div className={cx('content-2nd')}>
           <div className="checks">

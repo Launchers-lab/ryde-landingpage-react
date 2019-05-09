@@ -2,6 +2,7 @@
 @import '../../styles/breakpoints.scss';
 
 .content-1st{
+    color: $fontColorWhite;
     @media(min-width: $small) {
         margin-left: 13%;
         margin-top: 243px;
@@ -43,7 +44,6 @@
         font-stretch: normal;
         line-height: normal;
         letter-spacing: normal;
-        color: $fontColor;
 
         @media(max-width: $small) {
             height: auto;

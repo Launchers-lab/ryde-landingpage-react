@@ -6,10 +6,14 @@
   transition: all 0.15s linear;
 }
 
+.noncolored{
+  background-color: #fff !important;
+}
+
 #Header, .Header{
     position: fixed !important;
     padding: 20px 13%;
-    background-color: #fff;
+    background-color: rgba(0,0,0,0);
     z-index: 1000;
     position: relative;
     margin: 0;

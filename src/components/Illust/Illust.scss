@@ -1,10 +1,32 @@
 @import "../../styles/breakpoints.scss";
+@import "../../styles/colors.scss";
+
+.Back{
+  height: 100%;
+  min-height: 900px;
+  width: 100%;
+  background-color: $backColor;
+  position: absolute;
+  top: 0;
+}
 
 .Illust {
   & > img,
   div {
     z-index: -1;
   }
+  & > .Piece_1 {
+    @media (min-width: $small) {
+      top: 366px;
+      position: absolute;
+    }
+
+    @media (max-width: $small) {
+      position: absolute;
+      top: 366px;
+    }
+  }
+
   & > .Piece_2 {
     @media (min-width: $small) {
       left: 148px;
