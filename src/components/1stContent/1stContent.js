@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 // import { CheckOs } from "../../utils";
 import styles from "./1stContent.scss";
 
-import logo from "../../assets/ic-logo-big.svg";
+import logo from "../../assets/ic-logo-white.svg";
 import playstore from "../../assets/playstore.svg";
 import appstore from "../../assets/appstore.svg";
 

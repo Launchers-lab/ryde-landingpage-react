@@ -3,6 +3,7 @@ import moment from "moment";
 import * as classNames from "classnames/bind";
 import styles from "./Illust.scss";
 
+import piece1 from "../../assets/piece-1.svg";
 import piece2 from "../../assets/piece-2.svg";
 import piece3 from "../../assets/piece-3.svg";
 import LandingIllust1 from "../../assets/landing-illust-1.svg";
@@ -23,6 +24,8 @@ export default class Illust extends Component {
   render() {
     return (
       <div className={cx("Illust")}>
+        <div className="Back"/>
+        <img src={piece1} className="Piece_1" alt="Piece_1" />
         <img src={piece2} className="Piece_2" alt="Piece_2" />
         <img src={piece3} className="Piece_3" alt="Piece_3" />
 

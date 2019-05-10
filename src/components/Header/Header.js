@@ -3,21 +3,27 @@ import React, { Component } from 'react'
 
 import * as classNames from 'classnames/bind'
 import styles from './Header.scss'
+
 import logo from '../../assets/ic-logo-big.svg'
+import logowhite from '../../assets/ic-logo-white.svg'
 
 const cx = classNames.bind(styles)
 
 function myFunction(){
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("Header").className = cx('Header true');
-  } else {
+  if (document.documentElement.scrollTop < 50) {
     document.getElementById("Header").className = cx('Header false');
+  } else if (document.documentElement.scrollTop < 900) { 
+    document.getElementById("Header").className = cx('Header false');
+    document.getElementById("logo").src = logowhite
+  }else {
+    document.getElementById("Header").className = cx('Header noncolored true');
+    document.getElementById("logo").src = logo
   }
 }
 export default class Header extends Component {
   constructor(props) {
     super(props);
-    window.onscroll = function() {myFunction()};
+    window.onscroll = function () {myFunction()};
   }
 
   render () {
@@ -26,7 +32,7 @@ export default class Header extends Component {
         <ul>
           <li>
             <a href='/'>
-              <img src={logo} alt='' />
+              <img src={logowhite} classname='logo' id='logo' alt='RYDE' />
             </a>
             <div />
           </li>
