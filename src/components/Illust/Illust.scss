@@ -3,11 +3,18 @@
 
 .Back{
   height: 100%;
-  min-height: 900px;
   width: 100%;
   background-color: $backColor;
   position: absolute;
   top: 0;
+
+  @media (min-width: $small) {
+    min-height: 900px;
+  }
+
+  @media (max-width: $small) {
+    min-height: 720px;
+  }
 }
 
 .Illust {
@@ -22,8 +29,7 @@
     }
 
     @media (max-width: $small) {
-      position: absolute;
-      top: 366px;
+      display: none;
     }
   }
 
