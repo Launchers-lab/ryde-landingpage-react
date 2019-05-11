@@ -2,18 +2,17 @@
 @import "../../styles/colors.scss";
 
 .Back{
-  height: 100%;
   width: 100%;
   background-color: $backColor;
   position: absolute;
   top: 0;
 
   @media (min-width: $small) {
-    min-height: 900px;
+    height: 920px;
   }
 
   @media (max-width: $small) {
-    min-height: 720px;
+    height: 720px;
   }
 }
 
