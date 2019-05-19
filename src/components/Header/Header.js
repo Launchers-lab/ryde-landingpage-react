@@ -14,7 +14,7 @@ function myFunction() {
   if (isMobile && document.documentElement.scrollTop < 660) {
     document.getElementById("Header").className = cx('Header false');
     document.getElementById("logo").src = logo
-  } else if (isBrowser && document.documentElement.scrollTop < 900) { 
+  } else if (!isMobile && document.documentElement.scrollTop < 900) { 
     document.getElementById("Header").className = cx('Header false');
     document.getElementById("logo").src = logowhite
   } else {
