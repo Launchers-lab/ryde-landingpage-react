@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 // import { Link } from 'react-router-dom'
-import { isMobile, isBrowser } from 'react-device-detect';
+import { isMobileOnly } from 'react-device-detect';
 
 import * as classNames from 'classnames/bind'
 import styles from './Header.scss'
@@ -11,14 +11,14 @@ import logowhite from '../../assets/ic-logo-white.svg'
 const cx = classNames.bind(styles)
 
 function myFunction() {
-  if (isMobile && document.documentElement.scrollTop < 660) {
+  if ( window.scrollY < 50) {
     document.getElementById("Header").className = cx('Header false');
-    document.getElementById("logo").src = logo
-  } else if (!isMobile && document.documentElement.scrollTop < 900) { 
+    document.getElementById("logo").src = logowhite
+  } else if ( (isMobileOnly && window.scrollY < 660) || (!isMobileOnly && window.scrollY < 900) ) {
     document.getElementById("Header").className = cx('Header false');
     document.getElementById("logo").src = logowhite
   } else {
-    document.getElementById("Header").className = cx('Header noncolored true');
+    document.getElementById("Header").className = cx('Header white true');
     document.getElementById("logo").src = logo
   }
 }
@@ -27,7 +27,7 @@ export default class Header extends Component {
     super(props);
     window.onscroll = function () {
       myFunction()
-      console.log(document.documentElement.scrollTop)
+      console.log(window.scrollY)
     };
     
   }
@@ -38,7 +38,7 @@ export default class Header extends Component {
         <ul>
           <li>
             <a href='/'>
-              <img src={logowhite} className='logo' id='logo' alt='RYDE' />
+              <img src={logowhite} id='logo' alt='RYDE' />
             </a>
             <div />
           </li>
